@@ -4,26 +4,26 @@
 <details open="open">
   <summary><h2 style="display: inline-block">Tabla de contenidos</h2></summary>
   <ul>
-    <li><a href="#instalacion">Instalacion</a></li>
+    <li><a href="#uso">Uso</a></li>
     <li><a href="#objetivo">Objetivo</a></li>
-    <li><a href="#pipeline de preocesamiento">Pipeline de procesamiento</a></li>
+    <li><a href="#pipeline-de-procesamiento">Pipeline de procesamiento</a></li>
     <li><a href="#parseo">Parseo</a></li>
     <li><a href="#pre-procesamiento">Pre-procesamiento</a></li>
     <li><a href="#clustering">Clustering</a></li>
-    <li><a href="#vectorizacion">Vectorizacion</a></li>
+    <li><a href="#vectorización">Vectorización</a></li>
     <li><a href="#entrenamiento">Entrenamiento</a></li>
-    <li><a href="#predicciones y uso del modelo">Predicciones y uso del modelo</a></li>
-    <li><a href="#conclusion">Conclusion</a></li>
+    <li><a href="#predicciones-y-uso-del-modelo">Predicciones y uso del Modelo</a></li>
+    <li><a href="#conclusión">Conclusión</a></li>
     <li><a href="#contacto">Contacto</a></li>
   </ul>
 </details>
 <br/><br/>
 
-## Instalación:
-Podemos utilizar Google Collab para correr desde ahí la notebook. Solo debemos asegurarnos de correr la primera celda para instalar las dependencias antes de correr el resto de la notebook. Vamos a necesitar tener nuestro archivo de chat en Google drive, y darle acceso a Collab para poder cargar los mensajes.
+## Uso
+Si se quiere jugar con la notebook, lo mejor es utilizar Google Collab para correr desde ahí la notebook. Solo debemos asegurarnos de correr la primera celda para instalar las dependencias antes de correr el resto de la notebook. Vamos a necesitar tener nuestro archivo de chat en Google drive, y darle acceso a Collab para poder cargar los mensajes.
 <br/><br/>
 
-## Objetivo:
+## Objetivo
 El objetivo es lograr, a partir del contenido de un mensaje de WhatsApp, el tema sobre el cual trata el mensaje, usando datos no etiquetados como puede ser un chat grupal.
 
 Entonces, se podría tomar un mensaje como por ejemplo:
@@ -37,7 +37,7 @@ y nuestro modelo nos devolverá
 En este caso particular se usó un chat de un grupo propio de varios amigos, con el permiso de todos ellos.
 <br/><br/>
 
-## Pipeline de procesamiento:
+## Pipeline de procesamiento
 
 Las distintas etapas por las cuales van a pasar los mensajes son las siguientes:
 - Parseo
@@ -159,6 +159,7 @@ model = XGBClassifier()
 model.fit(vector_df, tag_df[0])
 ```
 <br/><br/>
+
 ## Predicciones y uso del Modelo
 Para poder predecir el tema de un mensaje nuevo, debemos procesarlo de acuerdo al pre procesamiento que realizamos previo al proceso de clustering, esto sería:
 1. Parseo
