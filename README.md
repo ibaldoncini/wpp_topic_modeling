@@ -158,7 +158,7 @@ from xgboost import XGBClassifier
 model = XGBClassifier()
 model.fit(vector_df, tag_df[0])
 ```
-<br/><br/>
+<br/>
 
 ## Predicciones y uso del Modelo
 Para poder predecir el tema de un mensaje nuevo, debemos procesarlo de acuerdo al pre procesamiento que realizamos previo al proceso de clustering, esto sería:
