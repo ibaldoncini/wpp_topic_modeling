@@ -108,7 +108,8 @@ También es recomendado leer [este posteo](https://towardsdatascience.com/short-
 
 Para poder imaginarse como funciona el algoritmo, presento el siguiente ejemplo (sacado del post previamente mencionado):
 
-“Imagina un grupo de estudiantes sentados aleatoriamente en K mesas, a todos les pedimos que escriban sus películas favoritas en una hoja (pero debe ser una lista corta). El objetivo es agruparlos de tal manera que los estudiantes en el mismo grupo, compartan los mismos intereses de cine, para ello, uno tras otro, los estudiantes deben elegir cambiarse de mesa siguiendo las siguientes reglas:
+“Imagina un grupo de estudiantes sentados aleatoriamente en K mesas, a todos les pedimos que escriban sus películas favoritas en una hoja (pero debe ser una lista corta). El objetivo es agruparlos de tal manera que los estudiantes en el mismo grupo, compartan los mismos intereses de cine, para ello, uno tras otro, los estudiantes deben elegir cambiarse de mesa siguiendo las siguientes reglas:  
+
 Regla 1: Elegir una mesa con más estudiantes, esta regla ayuda con la completitud, todos los estudiantes con los mismos intereses son asignados a la misma mesa.
 
 Regla 2: Elegir una mesa donde los estudiantes comparten tus intereses, lo que incrementa la homogeneidad, solo queremos que estudiantes que compartan intereses estén en una misma mesa.
