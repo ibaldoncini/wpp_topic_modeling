@@ -24,7 +24,7 @@ Si se quiere jugar con la notebook, lo mejor es utilizar Google Collab para corr
 <br/><br/>
 
 ## Objetivo
-El objetivo es lograr, a partir del contenido de un mensaje de WhatsApp, el tema sobre el cual trata el mensaje, usando datos no etiquetados como puede ser un chat grupal.
+El objetivo es lograr, a partir del contenido de un mensaje de WhatsApp, obtener el tema sobre el cual trata el mensaje, usando datos no etiquetados como puede ser un chat grupal.
 
 Entonces, se podría tomar un mensaje como por ejemplo:
 
