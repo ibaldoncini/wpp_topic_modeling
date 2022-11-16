@@ -20,7 +20,7 @@
 <br/><br/>
 
 ## Uso
-Si se quiere jugar con la notebook, lo mejor es utilizar Google Collab para correr desde ahí la notebook. Solo debemos asegurarnos de correr la primera celda para instalar las dependencias antes de correr el resto de la notebook. Vamos a necesitar tener nuestro archivo de chat en Google drive, y darle acceso a Collab para poder cargar los mensajes.
+Si se quiere jugar con la notebook, lo mejor es utilizar Google Collab para correr desde ahí la notebook. Solo debemos asegurarnos de correr la primera celda para instalar las dependencias antes de correr el resto de la notebook. Vamos a necesitar tener nuestro archivo de chat en Google drive, y darle acceso a Collab para poder cargar los mensajes. Pueden ver una guía de como exportar sus chats [aquí](https://faq.whatsapp.com/196737011380816/?cms_platform=android&locale=es_LA&category=5245251)
 <br/><br/>
 
 ## Objetivo
